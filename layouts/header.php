@@ -64,13 +64,13 @@
 								
                             </div>
                         </li>
-						<li><a href="main.php#about">About Us</a></li>
-						<li><a href="contact.php">Contact Us</a></li>
+						<li><a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/main.php#about">About Us</a></li>
+						<li><a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/contact.php">Contact Us</a></li>
 						<li>
-							<a href="login.php">Login</a>
+							<a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/login.php">Login</a>
 						</li>
 						<li>
-							<a href="register.php">Register</a>
+							<a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/register.php">Register</a>
 						</li>
 						
                         
@@ -86,14 +86,14 @@
                             <a class="dropbtn" href="javascript:void(0)">Services <span>&#11167;</span></i></a>
                             <div class="dropdown-content">
 								<a href="http://127.0.0.1:5000/">Career Prediction</a>
-                                <a href="courses.php">Courses</a>
+                                <a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/courses.php">Courses</a>
                                 <a href="blog.php">Knowledge Network</a>
 								
                             </div>
                         </li>
-						<li><a href="main.php#about">About Us</a></li>
-						<li><a href="contact.php">Contact Us</a></li>
-						<li><a href="logout.php" >Log out</a></li>
+						<li><a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/main.php#about">About Us</a></li>
+						<li><a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/contact.php">Contact Us</a></li>
+						<li><a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/logout.php" >Log out</a></li>
 						
                         
 					</ul>
