@@ -10,7 +10,7 @@ session_start();
 //}
  
 // Include config file
-require_once "config.php";
+require_once "database/config.php";
  
 // Define variables and initialize with empty values
 $username = $new_password = $confirm_password = "";
