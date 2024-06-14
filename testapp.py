@@ -37,7 +37,7 @@ def result():
             print(data)
 
             # Load the pre-trained model
-            loaded_model = pickle.load(open("careerlast.pkl", 'rb'))
+            loaded_model = pickle.load(open("model/careerlast.pkl", 'rb'))
 
             # Make predictions
             predictions = loaded_model.predict(data)
