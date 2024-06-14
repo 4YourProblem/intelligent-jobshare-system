@@ -6,12 +6,12 @@ session_start();
 
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'header.php'?>
+<?php include '../header.php'?>
 		<!-- Hero-area -->
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(../img/bgc2.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -42,7 +42,7 @@ session_start();
 					<!-- main blog -->
 
 						<!-- blog post -->
-						<div class="blog-post" style= text-align:justify; ">
+						<div class="blog-post" style= "text-align:justify;">
                             <h2>Job Description</h2>
                             <!-- row -->
                             <div class="row">
@@ -131,5 +131,5 @@ session_start();
 		</div>
 		<!-- /Blog -->
 
-		<?php include 'footer.php'?>
+		<?php include './layouts/footer.php'?>
 </html>

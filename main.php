@@ -6,12 +6,12 @@ session_start();
 
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'header.php'?>
+<?php include './layouts/header.php'?>
         <!-- Home -->
 		<div id="home" class="hero-area">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bg.jpg); width:100%; height: 656px;"></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(../img/bg.jpg); width:100%; height: 656px;"></div>
 			<!-- /Backgound Image -->
 
 			<div class="home-wrapper">
@@ -232,5 +232,5 @@ session_start();
 		</div>
 		<!-- /Contact CTA -->
 
-<?php include 'footer.php'?>
+<?php include './layouts/footer.php'?>
 </html>

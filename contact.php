@@ -6,12 +6,12 @@ session_start();
 
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'header.php'?>
+<?php include './layouts/header.php'?>
 		<!-- Hero-area -->
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(../img/bgc2.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
