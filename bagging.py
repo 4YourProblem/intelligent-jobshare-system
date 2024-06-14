@@ -6,7 +6,7 @@ import numpy as np
 import pickle
   
 # load the data
-dataset = pd.read_csv('dataset9000.data', header = None)
+dataset = pd.read_csv('data/dataset9000.data', header = None)
 print(dataset.head())
 X=np.array(dataset.iloc[:, 0:17]) 
 print(X)

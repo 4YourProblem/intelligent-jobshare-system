@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import pickle
-career = pd.read_csv('dataset9000.data', header = None)
+career = pd.read_csv('data/dataset9000.data', header = None)
 #np.dtype('float64')
 
 X = np.array(career.iloc[:, 0:17]) #X is skills
@@ -35,7 +35,7 @@ print('y_pred',y_pred)
 scores[5] = metrics.accuracy_score(y_test, y_pred)
 print('Accuracy=',scores[5]*100)
 
-pickle.dump(knn, open('careerlast.pkl','wb'))
+pickle.dump(knn, open('model/careerlast.pkl','wb'))
 print('test file created')
 
 
