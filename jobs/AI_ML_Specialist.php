@@ -18,8 +18,8 @@ session_start();
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1 text-center">
 						<ul class="hero-area-tree">
-							<li><a href="main.php">Home</a></li>
-							<li><a href="blog.php">Knowledge Network</a></li>
+							<li><a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/main.php">Home</a></li>
+							<li><a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/blog.php">Knowledge Network</a></li>
 							<li>AI/ML Specialists</li>
 						</ul>
 						<h1 class="white-text">AI/ML Specialists</h1>
@@ -131,5 +131,5 @@ session_start();
 		</div>
 		<!-- /Blog -->
 
-		<?php include '.../layouts/footer.php'?>
+		<?php include '../layouts/footer.php'?>
 </html>

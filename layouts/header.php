@@ -35,7 +35,7 @@
 				<div class="navbar-header">
 					<!-- Logo -->
 					<div class="navbar-brand">
-						<a class="logo" href="main.php">JobShare</a>
+						<a class="logo" href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/main.php">JobShare</a>
 					</div>
 					<!-- /Logo -->
 
@@ -54,7 +54,7 @@
 				<!-- Navigation -->
 				<nav id="nav">
 					<ul class="main-menu nav navbar-nav navbar-right">
-						<li><a href="main.php">Home</a></li>
+						<li><a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/main.php">Home</a></li>
                         <li class="dropdown">
                             <a class="dropbtn" href="javascript:void(0)">Services <span>&#11167;</span></a>
                             <div class="dropdown-content">
@@ -81,7 +81,7 @@
 					<!-- Navigation -->
 				<nav id="nav">
 					<ul class="main-menu nav navbar-nav navbar-right">
-						<li><a href="main.php">Home</a></li>
+						<li><a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/main.php">Home</a></li>
                         <li class="dropdown">
                             <a class="dropbtn" href="javascript:void(0)">Services <span>&#11167;</span></i></a>
                             <div class="dropdown-content">

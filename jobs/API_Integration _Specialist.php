@@ -133,5 +133,5 @@ session_start();
 		</div>
 		<!-- /Blog -->
 
-		<?php include '.../layouts/footer.php'?>
+		<?php include '../layouts/footer.php'?>
 </html>

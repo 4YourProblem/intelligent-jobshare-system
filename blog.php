@@ -20,7 +20,7 @@ session_start();
 				<div class="row" >
 					<div class="col-md-10 col-md-offset-1 text-center">
 						<ul class="hero-area-tree">
-							<li><a href="main.html">Home</a></li>
+							<li><a href="http://<?php echo $_SERVER['HTTP_HOST']; ?>/main.php">Home</a></li>
 							<li>Knowledge Network</li>
 						</ul>
 						<h1 class="white-text">Knowledge Network Page</h1>
